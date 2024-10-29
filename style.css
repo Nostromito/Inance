@@ -151,6 +151,7 @@ h1 {
 
 .RIM {
   margin-top: 150px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -167,7 +168,8 @@ h1 {
   color: black;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border: none;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   height: 200px;
 }
 
@@ -235,7 +237,6 @@ h1 {
 }
 
 /* Services Content */
-
 .services {
   display: flex;
   flex-direction: column;
@@ -283,3 +284,48 @@ h1 {
   border: none;
   border-radius: 2.5px;
 }
+
+/* Testimonial Content */
+
+.carousel-wrapper {
+  height: 400px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  max-width: 500px;
+  min-height: 200px;
+  padding: 25px 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.test {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.circle {
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.star {
+  text-align: center;
+}
+
+.stars {
+  padding-top: 5px;
+}
+
