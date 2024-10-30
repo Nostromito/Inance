@@ -202,7 +202,8 @@ h1 {
   margin-bottom: 10px;
 }
 
-.about button {
+.about button,
+#submit {
   font-size: 1.25rem;
   color: white;
   background-color: rgb(0, 73, 219);
@@ -249,15 +250,16 @@ h1 {
 }
 
 .mep-container {
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1em;
+  gap: 2em;
 }
 
 .services .mep {
-  width: 250px;
-  height: 250px;
+  max-width: 250px;
+  min-height: 250px;
   padding: 0 15px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -270,7 +272,9 @@ h1 {
   gap: 1em;
 }
 
-.services .mep:hover {
+.services .mep:hover,
+.round:hover,
+.logo:hover {
   background-color: orange;
   color: white;
 }
@@ -329,3 +333,83 @@ h1 {
   padding-top: 5px;
 }
 
+/* Contact Content */
+
+.contact {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.contact h2 {
+  font-size: 1.75rem;
+}
+
+.contact-size {
+  font-size: 1rem;
+  min-height: 50px;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+}
+
+#message {
+  min-height: 100px;
+}
+
+/* Map Content */
+
+.map {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Footer Content */
+
+footer {
+  background-color: rgb(31, 0, 102);
+  color: white;
+  height: 125vh;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h2 {
+  margin: 50px 0 25px 0;
+}
+
+footer p {
+  margin: 15px;
+}
+
+.round {
+  background-color: rgb(0, 73, 219);
+  max-width: 85px;
+  width: 100%;
+  min-height: 85px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  border-left: 2px solid white;
+  height: 350px;
+}
+
+.logo-bar {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+  padding: 10px 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+}

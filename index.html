@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +13,10 @@
   <body>
     <header>
       <div class="top-bar">
-        <img src="images/yellow-phone.png" alt="yellow phone icon" width="20px" height="20px" class="phone">
+        <img src="images/yellow-phone.png" alt="yellow phone icon" width="20" height="20" class="phone">
         <p>Call: 682-717-9196</p>
 
-        <img src="images/yellow-email.png" alt="yellow email icon" width="25px" height="15px" class="push-image">
+        <img src="images/yellow-email.png" alt="yellow email icon" width="25" height="15" class="push-image">
         <p>Email: Cameronjsmith981@gmail.com</p>
       </div>
 
@@ -28,10 +28,10 @@
             <i class="fa-solid fa-caret-down fa-4x"></i>
           </button>
           <div class="content">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact Us</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact Us</a>
           </div>
         </div>
       </div>
@@ -44,29 +44,30 @@
 
           <p>Your home deserves the best—trust us to keep it running smoothly with expert repairs in electrical, plumbing, and maintenance. We're here to make every problem a thing of the past!</p>
   
-          <button>Contact Us</button>
+          <a href="contact.html"><button> Contact Us</button></a>
+          
         </div>
         
         <div class="repair-image">
-          <img src="images/slider-img.png" alt="working class man in blue jumpsuit" width="500px" height="700px">
+          <img src="images/slider-img.png" alt="working class man in blue jumpsuit" width="500" height="700">
         </div>
       </div>
 
     <div class="RIM">
       <button class="wrench">
-        <img src="images/tools.svg" alt="wrenches in x formation icon" width="95px" height="95px">
+        <img src="images/tools.svg" alt="wrenches in x formation icon" width="95" height="95">
 
         <h2>REPAIR</h2>
       </button>
 
       <button class="paint">
-        <img src="images/construction.svg" alt="paint over house icon" width="95px" height="95px">
+        <img src="images/construction.svg" alt="paint over house icon" width="95" height="95">
 
         <h2>IMPROVE</h2>
       </button>
 
       <button class="toolbox">
-        <img src="images/maintenance.svg" alt="wrench and toolbox over house icon" width="95px" height="95px">
+        <img src="images/maintenance.svg" alt="wrench and toolbox over house icon" width="95" height="95">
 
         <h2>MAINTAIN</h2>
       </button>
@@ -83,9 +84,9 @@
   
         <p>Choose Inance for all your plumbing, electrical, and maintenance needs, and experience the peace of mind that comes with knowing you’re in good hands. Let us help you keep your space safe, functional, and comfortable!</p>
 
-        <button>READ MORE</button>
-  
-        <img src="images/about-img.jpg" alt="man in overalls" width="500px" height="350px">
+        <a href="about.html"><button>READ MORE</button></a>
+
+        <img src="images/about-img.jpg" alt="man in overalls" width="500" height="350">
       </div>
     </div>
 
@@ -105,7 +106,7 @@
 
       <div class="mep-container">
         <button class="mep">
-          <img src="images/s1.png" alt="maintenance icon" width="55px" height="55px">
+          <img src="images/s1.png" alt="maintenance icon" width="55" height="55">
   
           <h3>Maintenance</h3>
   
@@ -113,7 +114,7 @@
         </button>
   
         <button class="mep">
-          <img src="images/s2.png" alt="electrical icon" width="55px" height="55px">
+          <img src="images/s2.png" alt="electrical icon" width="55" height="55">
   
           <h3>Electrical</h3>
   
@@ -121,7 +122,7 @@
         </button>
   
         <button class="mep">
-          <img src="images/s3.png" alt="plumbing icon" width="55px" height="55px">
+          <img src="images/s3.png" alt="plumbing icon" width="55" height="55">
   
           <h3>Plumbing</h3>
   
@@ -133,8 +134,8 @@
         <h2>WHAT OUR CLIENTS SAY</h2>
 
         <div class="carousel-wrapper">
-          <div id="item" class="item item-1">
-            <img src="images/client-1.jpg" alt="photo of client 1" class="circle" width="85px">
+          <div class="item item-1">
+            <img src="images/client-1.jpg" alt="photo of client 1" class="circle" width="85">
       
             <div class="column">
               <div class="test">
@@ -159,8 +160,8 @@
       
           </div>
       
-          <div id="item" class="item item-2">
-            <img src="images/client-2.jpg" alt="photo of client 2" class="circle" width="85px">
+          <div class="item item-2">
+            <img src="images/client-2.jpg" alt="photo of client 2" class="circle" width="85">
       
             <div class="column">
               <div class="test">
@@ -186,13 +187,59 @@
 
       <button class="view">VIEW MORE</button>
     </div>
+
+    <form class="contact">
+      <h2>CONTACT US</h2>
+
+      <input type="text" name="fullname" id="fullname" placeholder="First and Last Name" required class="contact-size">
+
+      <input type="number" name="phone" id="phone" placeholder="Phone Number" required class="contact-size">
+
+      <input type="email" name="email" id="email" placeholder="Email" required class="contact-size">
+
+      <input type="text" name="message" id="message" placeholder="Message" class="contact-size">
+
+      <input type="submit" id="submit">
+    </form>
+
+    <div class="map">
+      <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d48350.739021066765!2d-73.9918181!3d40.7637581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1730268008918!5m2!1sen!2sus" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    </div>
+
       
     </main>
 
     <footer>
+      <h2>GET IN TOUCH</h2>
 
+      <div class="round round-1"><i class="fa-solid fa-location-dot"></i></div>
+      <div class="line"></div>
+
+      <p>Find Your Location</p>
+      <div class="line"></div>
+
+      <div class="round round-2"><i class="fa-solid fa-phone"></i></div>
+      <div class="line"></div>
+
+      <p>Give Us a Call</p>
+      <div class="line"></div>
+
+      <div class="round round3"><i class="fa-regular fa-envelope"></i></div>
+      <div class="line"></div>
+
+      <p>Or Contact Us Through Email</p>
+
+      <h2>FOLLOW US</h2>
+
+      <div class="logo-bar">
+        <a class="logo" href="#"><i class="fa-brands fa-facebook"></i></a>
+
+        <a class="logo" href="#"><i class="fa-brands fa-twitter"></i></a>
+
+        <a class="logo" href="#"><i class="fa-brands fa-youtube"></i></a>
+
+        <a class="logo" href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
     </footer>
   </body>
- 
 </html>
-
