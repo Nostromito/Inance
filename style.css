@@ -29,7 +29,8 @@ body {
   align-items: center;
 }
 
-.top-bar * {
+.top-bar *,
+.bottom-bar * {
   display: inline;
 }
 
@@ -46,10 +47,6 @@ body {
   text-align: end;
   padding-right: 20px;
   width: 100%;
-}
-
-.bottom-bar * {
-  display: inline;
 }
 
 .dropdown button {
@@ -412,4 +409,40 @@ footer p {
   justify-content: center;
   align-items: center;
   gap: .5em;
+}
+
+@media (min-width: 767px) {
+  body {
+    max-width: 100%;
+  }
+
+  .repair {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .repair-content h2 {
+    max-width: 100%;
+  }
+
+  .professional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact {
+    align-items: center;
+  }
+
+  .contact-size {
+    width: 350px;
+  }
+
+  #submit {
+    align-self: center;
+  }
+
 }
